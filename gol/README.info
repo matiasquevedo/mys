@@ -1,0 +1,22 @@
+El script instancia un elemento de la clase Gol, la cual contiene los métodos y atributos,
+para cumplir con las reglas del juego y el manejo de la GUI. 
+
+Utiliza dos paquetes:
+	numpy: para el manipular las matrices asociadas al tablero de juego.
+	PySimpleGUI: para la interfaz gráfica del juego.
+
+Métodos:
+	play(): actualiza el estado del sistema, siguiendo las reglas definidas.
+
+	ventana(): define los elementos de la interfaz gráfica en un layout. Se implementa PySimpleGUI.
+	
+	patronInicial(): recibe el patrón inicial de la simulación, por medio de eventos del mouse en el tablero.
+	
+	dibujarTablero(): muestra de forma gráfica cada estado del tablero.
+	
+	vecinos(): se encarga de verificar la cantidad celdas vecinas vivas que tiene un celda en particular. 
+			   Logra el efecto  de tablero infinito.
+
+
+
+

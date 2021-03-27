@@ -1,0 +1,11 @@
+Instrucciones para lanzar Gol:
+1) Clonar el repositorio:
+https://github.com/matiasquevedo/mys
+
+Dentro de la carpeta `gol`
+	
+2) Instalar dependencias:
+pip install -r requirements.txt
+
+3)Ejecutar Gol:
+python3 gol.py
