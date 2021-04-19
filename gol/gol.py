@@ -91,7 +91,7 @@ class Gol:
             [sg.Text('Indique el patrón inicial, haciendo click en el tablero', font='Courier` 25', text_color=colorcitos[3])],
             [sg.Text('', key='-OUTPUT-', size=(30, 1), font='ANY 15', justification="left")],
             [self.graph],
-            [sg.Button('Mandale mecha', key='-DONE-'),
+            [sg.Button('Iniciar', key='-DONE-'),
              sg.Text('', size=(3, 1), key='-S1-OUT-'),
              sg.Text('', size=(3, 1), key='-S2-OUT-')]
         ]
