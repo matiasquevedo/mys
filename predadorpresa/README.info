@@ -1,0 +1,34 @@
+El script permite estudiar simulaciones de poblaciones del caso predador-presa.
+A partir de las condiciones de contornos y parámetros de entra que el usuario especifique, correrá la simulación y generará los diagramas de población y fase.
+	Parámetros:
+		Cantidad de liebres
+		Cantidad de zorros
+		Duración del estudio de población (en semanas)
+
+	Condiciones de Contorno:
+		Tasa de nacimiento de liebres. (el programa tiene preestablecida una tasa de 0.08)
+		Tasa de mortalidad de zorros. (el programa tiene preestablecida una tasa de 0.2)
+		Tamaño del terreno. (por defecto, el tamaño del terreno es para la cantidad de liebres ingresada)
+
+
+
+Utiliza dos paquetes:
+	numpy: para el manipular las matrices asociadas al tablero de juego.
+	modsim: para instanciar Series de datos continuas.
+	matplotlib: para generar los gráficos de población y fase
+
+Métodos:
+	play(): actualiza el estado del sistema, siguiendo las reglas definidas.
+
+	ventana(): define los elementos de la interfaz gráfica en un layout. Se implementa PySimpleGUI.
+	
+	patronInicial(): recibe el patrón inicial de la simulación, por medio de eventos del mouse en el tablero.
+	
+	dibujarTablero(): muestra de forma gráfica cada estado del tablero.
+	
+	vecinos(): se encarga de verificar la cantidad celdas vecinas vivas que tiene un celda en particular. 
+			   Logra el efecto  de tablero infinito.
+
+
+
+

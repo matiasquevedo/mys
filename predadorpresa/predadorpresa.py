@@ -2,9 +2,11 @@
 # brew install python-tk@3.9
 import sys
 from modsim import *
+import datetime
 from matplotlib import pyplot
 import numpy as np
 import random
+import pathlib
 # tkinter._test()
 
 animal = ['🦊','🐇','🐇','🦊']
@@ -78,7 +80,9 @@ def mockData(sweep_liebres, sweep_zorros, semanas, liebres, zorros):
 	ax2.tick_params(axis='y', labelcolor=color)
 
 	fig.tight_layout()
-	savefig('/tmp/sweep.jpg')
+	date = str(datetime.datetime.now()).replace(" ", "")
+	pathlib.Path('/tmp/'+date).mkdir(parents=True, exist_ok=True) 
+	savefig('/tmp/'+date+'/sweep.jpg')
 	# pyplot.show()
 
 	
@@ -90,7 +94,12 @@ def mockData(sweep_liebres, sweep_zorros, semanas, liebres, zorros):
 	pyplot.ylabel('Número de Zorros')
 	# pyplot.legend()
 	pyplot.grid()
-	f2.savefig('/tmp/fase.png')
+	f2.savefig('/tmp/'+date+'/fase.png')
+	print("\n")
+	print("Diagramas guardados en: ")
+	print("		/tmp/"+date)
+	print("\n")
+
 
 
 

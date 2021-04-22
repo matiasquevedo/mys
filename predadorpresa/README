@@ -1,0 +1,13 @@
+Gol se juega indicando el patrón inicial de celdas vivas, haciendo click en el trablero.
+Luego, haciendo click en el botón "Iniciar Simulación", el juego mostrará la evolución del
+patrón siguiendo las siguientes reglas:
+	1) Una celda viviente sobrevive únicamente si tiene 2 o 3 celdas vecinas vivas”. Caso contrario, muere.
+	2) El nacimiento de una nueva celda se da si esta tiene exactamente 3 celdas vivas vecinas.
+
+
+Pruebe con el patrón incial llamado Glider:
+	□ □ □ □ □ 
+	□ □ ■ □ □ 
+	□ □ □ ■ □ 
+	□ ■ ■ ■ □ 
+	□ □ □ □ □ 
