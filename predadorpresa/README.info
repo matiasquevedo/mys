@@ -17,17 +17,7 @@ Utiliza dos paquetes:
 	modsim: para instanciar Series de datos continuas.
 	matplotlib: para generar los gráficos de población y fase
 
-Métodos:
-	play(): actualiza el estado del sistema, siguiendo las reglas definidas.
 
-	ventana(): define los elementos de la interfaz gráfica en un layout. Se implementa PySimpleGUI.
-	
-	patronInicial(): recibe el patrón inicial de la simulación, por medio de eventos del mouse en el tablero.
-	
-	dibujarTablero(): muestra de forma gráfica cada estado del tablero.
-	
-	vecinos(): se encarga de verificar la cantidad celdas vecinas vivas que tiene un celda en particular. 
-			   Logra el efecto  de tablero infinito.
 
 
 
