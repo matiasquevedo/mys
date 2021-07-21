@@ -1,0 +1,11 @@
+Instrucciones para lanzar la Simulación de Predador-Presa:
+1) Clonar el repositorio:
+https://github.com/matiasquevedo/mys
+
+Dentro de la carpeta `montecarlo`
+	
+2) Instalar dependencias:
+pip install -r requirements.txt
+
+3)Ejecutar Gol:
+python3 montecarlo.py

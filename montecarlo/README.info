@@ -1,0 +1,12 @@
+El script permite estudiar simular datos a partir de datos observados, respetando el 
+comportamiento de estos últimos. Genera datos aleatorios que corresponden a la distribución
+normal de los datos de partida.
+Una vez ejecutado, podemos observar que las medidas estadisticas (media y varianza) de los 
+datos estimados, se aproximan a la media y varianza de los datos históricos
+
+
+
+
+
+
+
